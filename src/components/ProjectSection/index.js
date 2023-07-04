@@ -14,33 +14,27 @@ import ProjectPreview from "./ProjectPreview";
 
 const projects = [
   {
-    name: "project1",
+    name: "TCET Open Source Website",
     description: "random project description",
-    img: "project.jpg",
+    img: "TCETOpenSource.png",
     tools: ["react", "tailwind css", "brainkfu**"],
   },
   {
-    name: "project2",
+    name: "TCET Linux",
     description: "random project description",
-    img: "project.jpg",
+    img: "TCETLinux.png",
     tools: ["react", "tailwind css", "brainkfu**"],
   },
   {
-    name: "project3",
+    name: "TCET - Training and Placement Website ",
     description: "random project description",
-    img: "project.jpg",
+    img: "TNP.jpg",
     tools: ["react", "tailwind css", "brainkfu**"],
   },
   {
-    name: "project4",
+    name: "Activity Dekho",
     description: "random project description",
-    img: "project.jpg",
-    tools: ["react", "tailwind css", "brainkfu**"],
-  },
-  {
-    name: "project5",
-    description: "random project description",
-    img: "project.jpg",
+    img: "ActivityDekho.jpg",
     tools: ["react", "tailwind css", "brainkfu**"],
   },
 ];
@@ -144,9 +138,6 @@ const ProjectSection = () => {
           >
             {projects.map((projectInfo) => (
               <SwiperSlide className="swiper-vertical">
-                <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 text-white ">
-                  {projectInfo.name}
-                </span>
                 <img
                   src={"/img/ProjectSection/" + projectInfo.img}
                   className="bg-cover rounded-lg"

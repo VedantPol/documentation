@@ -14,13 +14,13 @@ import "swiper/css/free-mode";
 const UnderDevelopmentProjects = () => {
     const underDevelopmentProjects = [
         {
-            "image": "/img/project_image.jpg",
+            "image": "/img/UnderDevelopmentProjects/ResumeScreener.jpg",
             "title": "Project 1",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus cum iure cupiditate quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, omnis repellendus similique atque consectetur dicta aliquam veniam saepe deleniti. Eos praesentium et amet quibusdam voluptas!",
             "github": "#"
         },
         {
-            "image": "/img/project_image.jpg",
+            "image": "/img/UnderDevelopmentProjects/TCETMumbai.jpg",
             "title": "Project 2",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus cum iure cupiditate quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, omnis repellendus similique atque consectetur dicta aliquam veniam saepe deleniti. Eos praesentium et amet quibusdam voluptas!",
             "github": "#"
